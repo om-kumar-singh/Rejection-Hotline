@@ -40,7 +40,9 @@ jobs:
           SPRING_DATASOURCE_PASSWORD: postgres
           SPRING_DATASOURCE_DRIVER: org.postgresql.Driver
           JWT_SECRET: ci-test-secret-key-minimum-32-characters-long
-        run: ./mvnw verify
+        run: |
+          chmod +x mvnw
+          ./mvnw verify
 
   frontend:
     runs-on: ubuntu-latest
