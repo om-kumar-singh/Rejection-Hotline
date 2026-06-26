@@ -32,9 +32,6 @@ jobs:
           java-version: '17'
           cache: maven
 
-      - name: Make mvnw executable
-        run: chmod +x backend/mvnw
-
       - name: Build and test backend
         working-directory: backend
         env:
@@ -44,7 +41,7 @@ jobs:
           SPRING_DATASOURCE_PASSWORD: postgres
           SPRING_DATASOURCE_DRIVER: org.postgresql.Driver
           JWT_SECRET: ci-test-secret-key-minimum-32-characters-long
-        run: ./mvnw verify
+        run: bash mvnw verify
 
   frontend:
     runs-on: ubuntu-latest
