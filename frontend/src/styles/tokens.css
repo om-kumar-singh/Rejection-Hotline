@@ -1,0 +1,26 @@
+:root {
+  --color-page: #000000;
+  --color-secondary: #233d4d;
+  --color-accent: #fe7f2d;
+  --color-accent-hover: #e56f22;
+  --color-accent-light: rgba(254, 127, 45, 0.14);
+  --color-light: #eaecf0;
+  --color-body: rgba(234, 236, 240, 0.72);
+  --color-muted: rgba(234, 236, 240, 0.5);
+  --color-label: #eaecf0;
+  --color-card: rgba(35, 61, 77, 0.55);
+  --color-card-solid: #233d4d;
+  --color-glass: rgba(35, 61, 77, 0.35);
+  --color-border: rgba(234, 236, 240, 0.1);
+  --color-error: #fe7f2d;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --shadow-card: 0 12px 40px rgba(0, 0, 0, 0.45);
+  --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-nav: 0 4px 24px rgba(0, 0, 0, 0.35);
+  --transition: 180ms ease;
+  --container-max: 1200px;
+  --font-sans: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
